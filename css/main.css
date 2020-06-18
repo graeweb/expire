@@ -260,10 +260,12 @@ h1 a:last-child{
 .slide_wrapper{
   position: relative;
 }
+.main_slider .controls span{
+  transform: translateY(30vh);
+}
 .controls span{
   position: absolute;
   top:40%;
-  /* transform: translateY(30vh); */
   cursor: pointer;
   color: #fff;
   font-size: 2em;
